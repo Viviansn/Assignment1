@@ -1,0 +1,63 @@
+a) 
+vivia@DESKTOP-87BRBET MINGW64 ~/git/GitHub/Assignment1 (master)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 943 bytes | 943.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Viviansn/Assignment1.git
+   3d373c9..2636ccb  master -> master
+
+b) 5 commits have been done to the repository so far.
+   git rev-list --all --count
+
+c) The .gitignore file was last modified 2019-01-28  14:30:38
+   stat .gitignore
+
+d) 1. Make sure your code changes are verified before sending to other developers.
+   2. Isolate development activities between the team.
+
+e) git log is a history of all the commits in the repository.
+   git status is the state of the working directory. It shows which files
+   have not been staged for commit and if your branch is up to date
+   with 'origin/master'.
+
+f) git log --follow Weapon.h
+
+g) git log --grep=file
+
+h) I)   Inheritance is the concept of having a derived class that shares all the
+        data and functionality found in its base class... the derived class also 
+        includes its own data/functionality. Inheritance is used for classes that 
+        share certain qualities of a larger class. 
+   II)  Polymorphism is the concept that different types of objects can be 
+        accessed through the same interface, and each type have its own implementation
+        of the method.
+   III) Encapsulation is the concept of grouping data and functions into a unit,
+        such as a class.
+
+i) The main difference between Integration Management Workflow and Dictator and
+   Lieutenants Workflow is that while there is only one manager from Integration 
+   Management that handles merges/conflict resolution before pushing onto the central
+   repository, in the Dictator and Lieutenants Workflow, there are intermediate 
+   "lieutenants" that merges changes/solves conflicts for some developers that they
+   are assigned to, which are then moved up to the "dictator", who resolves conflicts 
+   among the lieutenants, merges changes, and pushes it onto the central repository.
+   Additionally, Integration Manager Workflow has 2 repositories per developer:
+   a public and private repository. 
+
+j) A team of 100 developers would benefit more by following the "Dictator and
+   Lieutenants" workflow instead of the "Centralized" workflow because having 100 
+   developers working on the same shared repository at the same time can cause a lot
+   of conflicts between the codes (maybe one developer is working on a code, but in
+   that time frame, a new version is pushed onto the repository). Additionally, it 
+   would be hard to resolve conflicts between that many people. However, in the
+   "Dictator and Lieutenants" workflow, the developers can be broken into manageable
+   groups and assigned to a lieutenant, who is then referred to the dictator that
+   manages the lieutenant (repositories). Divide and conquer is the best route for
+   a large quantity of people.
+   
+
