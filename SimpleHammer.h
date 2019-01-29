@@ -18,6 +18,7 @@
 
 class SimpleHammer : public Weapon
 {
+public:	
 	SimpleHammer() : Weapon("Simple hammer", 25.0) {}
 
 	virtual ~SimpleHammer() {}
