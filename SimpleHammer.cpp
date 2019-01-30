@@ -7,7 +7,7 @@
 
 #include "SimpleHammer.h"
 
-double hit(double armor)
+double SimpleHammer::hit(double armor)
 {
 	double damage;
 	
