@@ -1,3 +1,5 @@
+The following below are answers to Question 3E:
+
 a) 
 vivia@DESKTOP-87BRBET MINGW64 ~/git/GitHub/Assignment1 (master)
 $ git push
@@ -60,4 +62,19 @@ j) A team of 100 developers would benefit more by following the "Dictator and
    manages the lieutenant (repositories). Divide and conquer is the best route for
    a large quantity of people.
    
+
+------------------------------------------------------------------------------------------
+
+The following is the answer to Question 5:
+
+5. The RoleGame prototype is using both polymorphism and encapsulation. Polymorphism is 
+   shown when using the hit function with the armor parameter. In the main file, we have
+   a Weapon pointer that points to various types of derived classes: Common Sword, Common 
+   Spear, etc.. During runtime, for whatever weapon the pointer is pointing to, each 
+   respective hit function will be called. This is an example of polymorphism. Additionally,
+   we are using encapsulation by having different weapon classes, i.e. CrazyRandomSword and
+   Simple Hammer, where each class holds data and methods (or functions) that use the data.
+
+
+
 
