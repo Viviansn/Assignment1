@@ -20,7 +20,7 @@
 class RareKragle : public Weapon
 {
 public:
-	RareKragle() : Weapon("Rare Kragle", 100,000.0) {}
+	RareKragle() : Weapon("Rare Kragle", 100000.0) {}
 
 	virtual ~RareKragle() {};
 
